@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Estilos personalizados adicionales */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+}

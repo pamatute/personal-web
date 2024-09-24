@@ -1,0 +1,45 @@
+proyecto-sitio-web-personal/
+│
+├── frontend/
+│   ├── components/
+│   │   ├── Layout.js
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── BlogPost.js
+│   │   ├── ProjectCard.js
+│   │   └── ConsultingForm.js
+│   ├── pages/
+│   │   ├── index.js
+│   │   ├── blog/
+│   │   │   └── [slug].js
+│   │   ├── projects/
+│   │   │   └── [slug].js
+│   │   ├── about.js
+│   │   └── consulting.js
+│   ├── styles/
+│   │   └── globals.css
+│   └── utils/
+│       └── api.js
+│
+├── backend/
+│   ├── api/
+│   │   ├── blog.js
+│   │   ├── projects.js
+│   │   └── users.js
+│   ├── models/
+│   │   ├── Post.js
+│   │   ├── Project.js
+│   │   └── User.js
+│   ├── config/
+│   │   └── database.js
+│   └── services/
+│       ├── authService.js
+│       └── emailService.js
+│
+├── public/
+│   └── images/
+│
+├── .gitignore
+├── package.json
+├── next.config.js
+└── README.md
